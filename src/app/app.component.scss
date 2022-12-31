@@ -1,0 +1,30 @@
+.input-field {
+    border-left: 4px solid aquamarine;
+}
+.input-field.ng-touched.ng-invalid {
+    border-left: 4px solid red;
+}
+.input-field.ng-touched.ng-valid {
+    border-left: 4px solid green;
+}
+.submit-image {
+    width: 10%;
+}
+.checkmark {
+    stroke: green;
+    stroke-dashoffset: 745.74853515625;
+    stroke-dasharray: 745.74853515625;
+    animation: dash 2s ease-out forwards 1;
+}
+.check-icon {
+    width: 4%;
+}
+  
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 745.74853515625;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }

@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "firstName": "smit",
+      "lastName": "hirpara",
+      "phoneNumber": "1234567890",
+      "emailaddress": "smit123@test.com",
+      "emailpassword": "smit4820t"
+    },
+    {
+      "firstName": "shivam",
+      "lastName": "hirpara",
+      "phoneNumber": "5432109876",
+      "emailaddress": "shivam123@gmail.com",
+      "emailpassword": "shivam123t",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "firstName": "smit",
+    "lastName": "hirpara",
+    "phoneNumber": "1234567890",
+    "emailaddress": "smit133@test.com"
+  }
+}
